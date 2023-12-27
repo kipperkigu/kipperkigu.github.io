@@ -17,21 +17,18 @@ src:url(./static/Raleway-Regular.ttf)
 @font-face {
   font-family: Freeline;
   src:url(./FreeLine_font/FreeLine.ttf)
-  }
+}
   
-  @font-face {
+@font-face {
       font-family: Freeline3;
-      src:url (./static/Raleway-Regular.ttf)
-      }
+      src:url(./static/Raleway-Regular.ttf)
+}
 
-  @font-face {
+@font-face {
     font-family: fowerBrush;
     src:url(./Fower\ Brush\ Font/Fower.ttf)
-    }
+}
   
-
-
-
 body {
   background: #0f0f0f;
   color: #666666;
