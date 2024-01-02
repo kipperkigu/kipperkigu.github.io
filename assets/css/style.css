@@ -11,7 +11,7 @@
 
 @font-face {
 font-family: Raleway;
-src:url(./static/Raleway-Regular.ttf)
+src:url(./static/Raleway-SemiBold.ttf)
 }
 
 @font-face {
@@ -36,7 +36,7 @@ body {
 }
 
 a {
-  color: #18d26e;
+  color: #47f8b4;
   transition: 0.5s;
   text-decoration: none;
 }
@@ -62,6 +62,7 @@ h2, h4, h3, h5, h6 {
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
+  color: #0af7e3;
 }
 
 
@@ -405,7 +406,7 @@ h2, h4, h3, h5, h6 {
   text-align: center;
 }
 #hero h2 {
-  color: #f7fcf7;
+  color: #f5138f;
   margin-bottom: 30px;
   font-size: 48px;
   font-weight: 700;
@@ -418,7 +419,7 @@ h2, h4, h3, h5, h6 {
 #hero p {
   width: 80%;
   margin: 0 auto 30px auto;
-  color: #21fd46;
+  color: #47f8b4;
 }
 @media (min-width: 1024px) {
   #hero p {
@@ -466,7 +467,7 @@ h2, h4, h3, h5, h6 {
   cursor: pointer;
 }
 #hero .btn-get-started {
-  font-family: "Montserrat", sans-serif;
+  font-family: Raleway;
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 1px;
@@ -476,11 +477,12 @@ h2, h4, h3, h5, h6 {
   transition: 0.5s;
   margin: 10px;
   color: #fff;
-  background: #18d26e;
+  color: #f542dd;
+  background: #47f8b4;
 }
 #hero .btn-get-started:hover {
   background: #fff;
-  color: #18d26e;
+  color: #47f8b4;
 }
 
 /*--------------------------------------------------------------
@@ -494,7 +496,7 @@ section {
 --------------------------------*/
 .section-header h3 {
   font-size: 32px;
-  color: #f8f6f6;
+  color: #0af7e3;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
@@ -599,7 +601,7 @@ section {
   font-size: 18px;
 }
 #featured-services h4 a {
-  color: #f8f9fa;
+  color: #47f8b4;
 }
 #featured-services h4 a:hover {
   color: #18d26e;
@@ -689,7 +691,7 @@ section {
 #about .about-col p {
   font-size: 14px;
   line-height: 24px;
-  color: #40f87e;
+  color: #0af7e3;
   margin-bottom: 0;
   padding: 0 20px 20px 20px;
 }
@@ -1757,7 +1759,7 @@ section {
 #footer {
   background: #000;
   padding: 0 0 30px 0;
-  color: #eee;
+  color: #0af7e3;
   font-size: 16px;
 }
 #footer .footer-top {
@@ -1783,7 +1785,7 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Montserrat", sans-serif;
-  color: #eee;
+  color: #47f8b4;
 }
 #footer .footer-top .social-links a {
   display: inline-block;
@@ -1810,7 +1812,7 @@ section {
 #footer .footer-top h4 {
   font-size: 14px;
   font-weight: bold;
-  color: #fff;
+  color: #0af7e3;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
@@ -1889,5 +1891,5 @@ section {
 #footer .credits {
   text-align: center;
   font-size: 16px;
-  color: #ddd;
+  color: #0af7e3;
 }
