@@ -11,22 +11,12 @@
 
 @font-face {
 font-family: Raleway;
-src:url(./static/Raleway-SemiBold.ttf)
-}
-
-@font-face {
-  font-family: Raleway;
-  src:url(./static/Raleway-SemiBold.ttf)
-}
-  
-@font-face {
-      font-family: Raleway;
-      src:url(./static/Raleway-SemiBold.ttf)
+src:url(./static/Raleway-Black.ttf)
 }
 
 @font-face {
     font-family: Raleway2;
-    src:url(../static/Raleway-Bold.ttf)
+    src:url(../static/Raleway-thin.ttf)
 }
   
 body {
@@ -48,25 +38,25 @@ a:hover, a:active, a:focus {
 }
 
 p {
-  padding: 0;
+  padding:0;
   margin: 0 0 30px 0;
-  font-family: Raleway;
+  font-family: Raleway2;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
 }
 
 
-h2, h4, h3, h5, h6 {
+h4, h3, h5, h6 {
   font-family: Raleway;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
-  color: #f30a0a;
+  color: #a51828;
 }
 
-h1 {
-  font-family: Raleway;
+h2 {
+  font-family: Raleway2;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -83,7 +73,7 @@ h1 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #f1f3f2;
+  background: #0a0a0a;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -91,7 +81,7 @@ h1 {
 }
 .back-to-top i {
   font-size: 28px;
-  color: #fff;
+  color: #a51828;
   line-height: 0;
 }
 .back-to-top:hover {
@@ -484,7 +474,7 @@ h1 {
   margin: 10px;
   color: #fff;
   color: #fcfafb;
-  background: #f32424;
+  background: #a51828;
 }
 #hero .btn-get-started:hover {
   background: #fff;
@@ -502,7 +492,7 @@ section {
 --------------------------------*/
 .section-header h3 {
   font-size: 32px;
-  color: #fd1818;
+  color: #a51828;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
@@ -596,7 +586,7 @@ section {
   background-image: linear-gradient(0deg, #000000 0%, #242323 50%, #000000 100%);
 }
 #featured-services i {
-  color: #53d218;
+  color: #f6f8f4;
   font-size: 48px;
   display: inline-block;
   line-height: 1;
@@ -607,7 +597,7 @@ section {
   font-size: 18px;
 }
 #featured-services h4 a {
-  color: #f72626;
+  color: #a51828;
 }
 #featured-services h4 a:hover {
   color: #18d26e;
@@ -658,7 +648,7 @@ section {
   height: 64px;
   text-align: center;
   position: absolute;
-  background-color: #18d26e;
+  background-color: #f9fcfa;
   border-radius: 50%;
   border: 4px solid #0e0d0d;
   left: calc(50% - 32px);
@@ -678,7 +668,7 @@ section {
   background-color: #f8f0f0;
 }
 #about .about-col:hover i {
-  color: #18d26e;
+  color: #a51828;
 }
 #about .about-col h2 {
   color: #faf7f7;
@@ -689,14 +679,14 @@ section {
   margin: 40px 0 12px 0;
 }
 #about .about-col h2 a {
-  color: #f51414;
+  color: #a51828;
 }
 #about .about-col h2 a:hover {
-  color: #6ef838;
+  color: #a51828;
 }
 #about .about-col p {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 20px;
   color: #f5f8f8;
   margin-bottom: 0;
   padding: 0 20px 20px 20px;
@@ -716,7 +706,7 @@ section {
   float: left;
 }
 #services .icon i {
-  color: #18d26e;
+  color: #a51828;
   font-size: 36px;
   line-height: 0;
   transition: 0.5s;
@@ -731,7 +721,7 @@ section {
   color: #faf7f7;
 }
 #services .box:hover .title a {
-  color: #18d26e;
+  color: #a51828;
 }
 #services .description {
   font-size: 14px;
@@ -869,7 +859,7 @@ section {
   transition: all 0.3s ease-in-out;
 }
 #portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
-  background: #fa0505;
+  background: #a51828;
   color: #fff;
 }
 #portfolio #portfolio-flters li:last-child {
@@ -919,7 +909,7 @@ section {
   line-height: 0;
 }
 #portfolio .portfolio-item figure .link-preview:hover, #portfolio .portfolio-item figure .link-details:hover {
-  background: #18d26e;
+  background:#a51828;
 }
 #portfolio .portfolio-item figure .link-preview:hover i, #portfolio .portfolio-item figure .link-details:hover i {
   color: #fff;
@@ -958,7 +948,7 @@ section {
   color: #333;
 }
 #portfolio .portfolio-item .portfolio-info h4 a:hover {
-  color: #18d26e;
+  color:#a51828;
 }
 #portfolio .portfolio-item .portfolio-info p {
   padding: 0;
@@ -1047,7 +1037,7 @@ section {
   border: 1px solid #18d26e;
 }
 #clients .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #18d26e;
+  background-color: #a51828;
 }
 
 /* Testimonials Section
@@ -1115,7 +1105,7 @@ section {
   border: 1px solid #18d26e;
 }
 #testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #18d26e;
+  background-color: #a51828;
 }
 
 /* Team Section
@@ -1175,7 +1165,7 @@ section {
   color: #fff;
 }
 #team .member .social a:hover {
-  color: #18d26e;
+  color: #a51828;
 }
 #team .member .social i {
   font-size: 18px;
@@ -1195,7 +1185,7 @@ section {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: #18d26e;
+  color: #a51828;
 }
 #contact .contact-info address, #contact .contact-info p {
   margin-bottom: 0;
@@ -1212,7 +1202,7 @@ section {
   color: #000;
 }
 #contact .contact-info a:hover {
-  color: #18d26e;
+  color: #a51828;
 }
 #contact .contact-address, #contact .contact-phone, #contact .contact-email {
   margin-bottom: 20px;
@@ -1247,7 +1237,7 @@ section {
 #contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: #a51828;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1784,11 +1774,11 @@ section {
   font-family: FowerBrush;
   font-weight: 700;
   letter-spacing: 3px;
-  border-left: 4px solid #18d26e;
+  border-left: 4px solid #a51828;
 }
 #footer .footer-top .footer-info p {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 20px;
   margin-bottom: 0;
   font-family: "Montserrat", sans-serif;
   color: #f9fdfc;
@@ -1796,7 +1786,7 @@ section {
 #footer .footer-top .social-links a {
   display: inline-block;
   background: #333;
-  color: #fafafa;
+  color: #a51828;
   line-height: 1;
   margin-right: 4px;
   border-radius: 50%;
@@ -1812,13 +1802,13 @@ section {
   font-size: 26px;
 }
 #footer .footer-top .social-links a:hover {
-  background: #f6f8f7;
-  color: #fff;
+  background: #a51828;
+  color: #a51828;
 }
 #footer .footer-top h4 {
   font-size: 14px;
   font-weight: bold;
-  color: #fcfdfd;
+  color: #a51828;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
@@ -1835,7 +1825,7 @@ section {
   background: #555;
 }
 #footer .footer-top h4::after {
-  background: #f7faf8;
+  background: #a51828;
   width: 60px;
 }
 #footer .footer-top .footer-links {
@@ -1848,7 +1838,7 @@ section {
 }
 #footer .footer-top .footer-links ul i {
   padding-right: 8px;
-  color: #ddd;
+  color: #fdf9fa;
 }
 #footer .footer-top .footer-links ul li {
   border-bottom: 1px solid #333;
@@ -1858,10 +1848,10 @@ section {
   padding-top: 0;
 }
 #footer .footer-top .footer-links ul a {
-  color: #eee;
+  color: #a51828;
 }
 #footer .footer-top .footer-links ul a:hover {
-  color: #f3f8f6;
+  color: #a51828;
 }
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
@@ -1878,17 +1868,17 @@ section {
   width: 65%;
 }
 #footer .footer-top .footer-newsletter input[type=submit] {
-  background: #f5f7f6;
+  background: #a51828;
   border: 0;
   width: 35%;
   padding: 6px 0;
   text-align: center;
-  color: #fff;
+  color: #a51828;
   transition: 0.3s;
   cursor: pointer;
 }
 #footer .footer-top .footer-newsletter input[type=submit]:hover {
-  background: #f3f8f6;
+  background:#a51828;
 }
 #footer .copyright {
   text-align: center;
